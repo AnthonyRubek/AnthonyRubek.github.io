@@ -213,7 +213,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>() <span class="sc">+</span> </span>
 <span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">data =</span> NBA23total, <span class="fu">aes</span>(<span class="at">x =</span> G, <span class="at">y =</span> AST), <span class="at">color =</span> <span class="st">"black"</span>) <span class="sc">+</span> </span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">data =</span> TraeYoung, <span class="fu">aes</span>(<span class="at">x =</span> G, <span class="at">y =</span> AST), <span class="at">color =</span> <span class="st">"red"</span>) <span class="sc">+</span> </span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">data =</span> TraeYoung, <span class="fu">aes</span>(<span class="at">x =</span> G, <span class="at">y =</span> AST), <span class="at">color =</span> <span class="st">"#E03A3E"</span>) <span class="sc">+</span> </span>
 <span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text_repel</span>(</span>
 <span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">data =</span> TraeYoung,</span>
 <span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>    <span class="fu">aes</span>(<span class="at">x =</span> G, <span class="at">y =</span> AST, <span class="at">label =</span> Player),</span>
@@ -221,7 +221,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>   ) <span class="sc">+</span> <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
 <span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">y =</span> <span class="st">"Total Assists"</span>,</span>
 <span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>       <span class="at">x =</span> <span class="st">"Games Played"</span>,</span>
-<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>       <span class="at">title =</span> <span class="st">"Trae Young is in a league of his own"</span>,</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>       <span class="at">title =</span> <span class="st">"Trae Young passes the ball like no other"</span>,</span>
 <span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>       <span class="at">subtitle =</span> <span class="st">"Despite playing in only 54 games, Young still finished in the top 10 in total assists"</span>,</span>
 <span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>       <span class="at">caption=</span><span class="st">"Source: Basketball Reference | By Anthony Rubek"</span>) <span class="sc">+</span></span>
 <span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
@@ -244,7 +244,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <p>Young’s 583 assists put him at eighth in the league. He would have finished even higher if he had played all 82 games.</p>
-<p>What about defense? By far the biggest knock on the three-time all stars game has been his defending. However, Young has improved a lot over time with his steals per game showing that.</p>
+<p>What about defense? By far the biggest knock on the three-time all star’s game has been his defending. However, Young has improved a lot over time with his steals per game showing that.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -267,7 +267,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_beeswarm</span>(</span>
 <span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">data =</span> Trae,</span>
 <span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>    <span class="fu">aes</span>(<span class="at">x =</span> Pos, <span class="at">y =</span> STL),</span>
-<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> <span class="st">"red"</span></span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> <span class="st">"#E03A3E"</span></span>
 <span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span> <span class="fu">geom_text_repel</span>(</span>
 <span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>    <span class="at">data =</span> Trae,</span>
 <span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>    <span class="fu">aes</span>(<span class="at">x =</span> Pos, <span class="at">y =</span> STL, <span class="at">label =</span> Player),</span>
@@ -289,7 +289,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="index_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="index_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
@@ -360,7 +360,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb5-59"><a href="#cb5-59" aria-hidden="true" tabindex="-1"></a>  <span class="fu">opt_table_lines</span>(<span class="st">"none"</span>) <span class="sc">|&gt;</span> </span>
 <span id="cb5-60"><a href="#cb5-60" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tab_style</span>(</span>
 <span id="cb5-61"><a href="#cb5-61" aria-hidden="true" tabindex="-1"></a>    <span class="at">style =</span> <span class="fu">list</span>(</span>
-<span id="cb5-62"><a href="#cb5-62" aria-hidden="true" tabindex="-1"></a>      <span class="fu">cell_fill</span>(<span class="at">color =</span> <span class="st">"red"</span>),</span>
+<span id="cb5-62"><a href="#cb5-62" aria-hidden="true" tabindex="-1"></a>      <span class="fu">cell_fill</span>(<span class="at">color =</span> <span class="st">"#E03A3E"</span>),</span>
 <span id="cb5-63"><a href="#cb5-63" aria-hidden="true" tabindex="-1"></a>      <span class="fu">cell_text</span>(<span class="at">color =</span> <span class="st">"white"</span>)</span>
 <span id="cb5-64"><a href="#cb5-64" aria-hidden="true" tabindex="-1"></a>    ),</span>
 <span id="cb5-65"><a href="#cb5-65" aria-hidden="true" tabindex="-1"></a>    <span class="at">locations =</span> <span class="fu">cells_body</span>(</span>
@@ -369,23 +369,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb5-68"><a href="#cb5-68" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
-<div id="vhhzvanwnv" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#vhhzvanwnv table {
+<div id="eepgwhjbsj" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#eepgwhjbsj table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#vhhzvanwnv thead, #vhhzvanwnv tbody, #vhhzvanwnv tfoot, #vhhzvanwnv tr, #vhhzvanwnv td, #vhhzvanwnv th {
+#eepgwhjbsj thead, #eepgwhjbsj tbody, #eepgwhjbsj tfoot, #eepgwhjbsj tr, #eepgwhjbsj td, #eepgwhjbsj th {
   border-style: none;
 }
 
-#vhhzvanwnv p {
+#eepgwhjbsj p {
   margin: 0;
   padding: 0;
 }
 
-#vhhzvanwnv .gt_table {
+#eepgwhjbsj .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -411,12 +411,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-left-color: #D3D3D3;
 }
 
-#vhhzvanwnv .gt_caption {
+#eepgwhjbsj .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#vhhzvanwnv .gt_title {
+#eepgwhjbsj .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -428,7 +428,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-bottom-width: 0;
 }
 
-#vhhzvanwnv .gt_subtitle {
+#eepgwhjbsj .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -440,7 +440,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-top-width: 0;
 }
 
-#vhhzvanwnv .gt_heading {
+#eepgwhjbsj .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -452,13 +452,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-right-color: #D3D3D3;
 }
 
-#vhhzvanwnv .gt_bottom_border {
+#eepgwhjbsj .gt_bottom_border {
   border-bottom-style: none;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#vhhzvanwnv .gt_col_headings {
+#eepgwhjbsj .gt_col_headings {
   border-top-style: none;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -473,7 +473,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-right-color: #D3D3D3;
 }
 
-#vhhzvanwnv .gt_col_heading {
+#eepgwhjbsj .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -493,7 +493,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   overflow-x: hidden;
 }
 
-#vhhzvanwnv .gt_column_spanner_outer {
+#eepgwhjbsj .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -505,15 +505,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   padding-right: 4px;
 }
 
-#vhhzvanwnv .gt_column_spanner_outer:first-child {
+#eepgwhjbsj .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#vhhzvanwnv .gt_column_spanner_outer:last-child {
+#eepgwhjbsj .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#vhhzvanwnv .gt_column_spanner {
+#eepgwhjbsj .gt_column_spanner {
   border-bottom-style: none;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -525,11 +525,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   width: 100%;
 }
 
-#vhhzvanwnv .gt_spanner_row {
+#eepgwhjbsj .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#vhhzvanwnv .gt_group_heading {
+#eepgwhjbsj .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -555,7 +555,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   text-align: left;
 }
 
-#vhhzvanwnv .gt_empty_group_heading {
+#eepgwhjbsj .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -570,15 +570,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   vertical-align: middle;
 }
 
-#vhhzvanwnv .gt_from_md > :first-child {
+#eepgwhjbsj .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#vhhzvanwnv .gt_from_md > :last-child {
+#eepgwhjbsj .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#vhhzvanwnv .gt_row {
+#eepgwhjbsj .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -597,7 +597,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   overflow-x: hidden;
 }
 
-#vhhzvanwnv .gt_stub {
+#eepgwhjbsj .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -610,7 +610,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   padding-right: 5px;
 }
 
-#vhhzvanwnv .gt_stub_row_group {
+#eepgwhjbsj .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -624,15 +624,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   vertical-align: top;
 }
 
-#vhhzvanwnv .gt_row_group_first td {
+#eepgwhjbsj .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#vhhzvanwnv .gt_row_group_first th {
+#eepgwhjbsj .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#vhhzvanwnv .gt_summary_row {
+#eepgwhjbsj .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -642,16 +642,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   padding-right: 5px;
 }
 
-#vhhzvanwnv .gt_first_summary_row {
+#eepgwhjbsj .gt_first_summary_row {
   border-top-style: none;
   border-top-color: #D3D3D3;
 }
 
-#vhhzvanwnv .gt_first_summary_row.thick {
+#eepgwhjbsj .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#vhhzvanwnv .gt_last_summary_row {
+#eepgwhjbsj .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -661,7 +661,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-bottom-color: #D3D3D3;
 }
 
-#vhhzvanwnv .gt_grand_summary_row {
+#eepgwhjbsj .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -671,7 +671,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   padding-right: 5px;
 }
 
-#vhhzvanwnv .gt_first_grand_summary_row {
+#eepgwhjbsj .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -681,7 +681,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-top-color: #D3D3D3;
 }
 
-#vhhzvanwnv .gt_last_grand_summary_row_top {
+#eepgwhjbsj .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -691,11 +691,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-bottom-color: #D3D3D3;
 }
 
-#vhhzvanwnv .gt_striped {
+#eepgwhjbsj .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#vhhzvanwnv .gt_table_body {
+#eepgwhjbsj .gt_table_body {
   border-top-style: none;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -704,7 +704,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-bottom-color: #D3D3D3;
 }
 
-#vhhzvanwnv .gt_footnotes {
+#eepgwhjbsj .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -718,7 +718,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-right-color: #D3D3D3;
 }
 
-#vhhzvanwnv .gt_footnote {
+#eepgwhjbsj .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -727,7 +727,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   padding-right: 5px;
 }
 
-#vhhzvanwnv .gt_sourcenotes {
+#eepgwhjbsj .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -741,7 +741,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-right-color: #D3D3D3;
 }
 
-#vhhzvanwnv .gt_sourcenote {
+#eepgwhjbsj .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -749,72 +749,72 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   padding-right: 5px;
 }
 
-#vhhzvanwnv .gt_left {
+#eepgwhjbsj .gt_left {
   text-align: left;
 }
 
-#vhhzvanwnv .gt_center {
+#eepgwhjbsj .gt_center {
   text-align: center;
 }
 
-#vhhzvanwnv .gt_right {
+#eepgwhjbsj .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#vhhzvanwnv .gt_font_normal {
+#eepgwhjbsj .gt_font_normal {
   font-weight: normal;
 }
 
-#vhhzvanwnv .gt_font_bold {
+#eepgwhjbsj .gt_font_bold {
   font-weight: bold;
 }
 
-#vhhzvanwnv .gt_font_italic {
+#eepgwhjbsj .gt_font_italic {
   font-style: italic;
 }
 
-#vhhzvanwnv .gt_super {
+#eepgwhjbsj .gt_super {
   font-size: 65%;
 }
 
-#vhhzvanwnv .gt_footnote_marks {
+#eepgwhjbsj .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#vhhzvanwnv .gt_asterisk {
+#eepgwhjbsj .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#vhhzvanwnv .gt_indent_1 {
+#eepgwhjbsj .gt_indent_1 {
   text-indent: 5px;
 }
 
-#vhhzvanwnv .gt_indent_2 {
+#eepgwhjbsj .gt_indent_2 {
   text-indent: 10px;
 }
 
-#vhhzvanwnv .gt_indent_3 {
+#eepgwhjbsj .gt_indent_3 {
   text-indent: 15px;
 }
 
-#vhhzvanwnv .gt_indent_4 {
+#eepgwhjbsj .gt_indent_4 {
   text-indent: 20px;
 }
 
-#vhhzvanwnv .gt_indent_5 {
+#eepgwhjbsj .gt_indent_5 {
   text-indent: 25px;
 }
 
-#vhhzvanwnv .katex-display {
+#eepgwhjbsj .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#vhhzvanwnv div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#eepgwhjbsj div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
@@ -848,10 +848,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <td class="gt_row gt_right" headers="TotalPointsandAssists">36.8</td>
 </tr>
 <tr class="even">
-<td class="gt_row gt_left gt_striped" headers="Player" style="background-color: #FF0000; color: #FFFFFF">Trae Young</td>
-<td class="gt_row gt_right gt_striped" headers="PTS" style="background-color: #FF0000; color: #FFFFFF">23.9</td>
-<td class="gt_row gt_right gt_striped" headers="AST" style="background-color: #FF0000; color: #FFFFFF">11.5</td>
-<td class="gt_row gt_right gt_striped" headers="TotalPointsandAssists" style="background-color: #FF0000; color: #FFFFFF">35.4</td>
+<td class="gt_row gt_left gt_striped" headers="Player" style="background-color: #E03A3E; color: #FFFFFF">Trae Young</td>
+<td class="gt_row gt_right gt_striped" headers="PTS" style="background-color: #E03A3E; color: #FFFFFF">23.9</td>
+<td class="gt_row gt_right gt_striped" headers="AST" style="background-color: #E03A3E; color: #FFFFFF">11.5</td>
+<td class="gt_row gt_right gt_striped" headers="TotalPointsandAssists" style="background-color: #E03A3E; color: #FFFFFF">35.4</td>
 </tr>
 <tr class="odd">
 <td class="gt_row gt_left" headers="Player">Damian Lillard</td>
@@ -924,7 +924,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<p>Young has exceeded projections so far, leading all point guards in assists per game while coming in at sixth in points per game. It is clear that Young should not have been ranked lower than guys like Jrue Holiday and Jamal Murray.</p>
+<p>Young has exceeded projections so far, leading all point guards in assists per game while coming in at sixth in points per game. It is clear that Young should not have been ranked around the range of guys like Jrue Holiday (No.&nbsp;36 ESPN, No.&nbsp;32 CBS) and Jamal Murray (No.&nbsp;31 ESPN, No.&nbsp;34 CBS). Instead, Young should have been in discussions with the top of the list like Luka Dončić (No.&nbsp;2 ESPN, No.&nbsp;3 CBS).</p>
 
 
 
